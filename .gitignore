@@ -13,3 +13,5 @@ assets/base/kf1_mods_installer.exe
 /assets/base/steamcmd
 kf1_mods_installer.spec
 assets/base/kf1_mods_installer.zip
+kf1-mods-installer.spec
+assets/base/kf1-mods-installer.exe

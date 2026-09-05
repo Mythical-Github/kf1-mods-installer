@@ -25,7 +25,7 @@ setup:
   uv sync
 
 build:
-  uv run pyinstaller --noconfirm --onefile --console --name kf1_mods_installer src/kf1_mods_installer/__main__.py
+  uv run pyinstaller --noconfirm --onefile --console --name kf1-mods-installer src/kf1_mods_installer/__main__.py --icon=assets/images/icons/project_main_icon.ico
 
 clean:
   if (Test-Path ".venv") { Remove-Item ".venv" -Recurse -Force }
