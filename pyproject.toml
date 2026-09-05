@@ -6,22 +6,22 @@ readme = "README.md"
 authors = [
     { name = "Mythical-Github", email = "67753356+Mythical-Github@users.noreply.github.com" }
 ]
-requires-python = ">=3.9.1"
+requires-python = ">=3.14"
 dependencies = [
-    "bs4>=0.0.2",
-    "colorama>=0.4.6",
-    "pyjson5>=1.6.9",
-    "requests>=2.32.5",
+    "kf1-mods-installer-core",
 ]
 
 [project.scripts]
-kf1-mods-installer = "kf1_mods_installer:main"
+kf1_mods_installer = "kf1_mods_installer.main:main"
 
 [build-system]
-requires = ["uv_build>=0.8.15,<0.9.0"]
+requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+kf1-mods-installer-core = { git = "https://github.com/KillingFloorSeriesModding/kf1-mods-installer-core" }
 
 [dependency-groups]
 dev = [
-    "pyinstaller>=6.16.0",
+    "pyinstaller>=6.22.2",
 ]
