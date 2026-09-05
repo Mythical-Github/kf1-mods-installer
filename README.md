@@ -1,4 +1,4 @@
-# kf1_mods_installer
+# kf1-mods-installer
 
 # What does this do?
 It easily installs killing floor 1 workshop mods in mass amounts via workshop collections.\
